@@ -86,9 +86,10 @@ ADDITIONAL_DEFAULT_PROPERTIES += ro.dalvik.vm.native.bridge=libhoudini.so
 # Set default USB interface
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += persist.sys.usb.config=mtp
 
-# Include AppDrawer
+# Include our custom apps
 PRODUCT_PACKAGES += \
-    AppDrawer
+    AppDrawer \
+    PureNexusCustomizer
 
 # Boot Animation
 PRODUCT_COPY_FILES += \
