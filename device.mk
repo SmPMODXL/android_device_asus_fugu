@@ -86,11 +86,6 @@ ADDITIONAL_DEFAULT_PROPERTIES += ro.dalvik.vm.native.bridge=libhoudini.so
 # Set default USB interface
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += persist.sys.usb.config=mtp
 
-# Include our custom apps
-PRODUCT_PACKAGES += \
-    AppDrawer \
-    PureNexusCustomizer
-
 # Boot Animation
 PRODUCT_COPY_FILES += \
     device/asus/fugu/bootanimation-580-256col.zip:system/media/bootanimation.zip
